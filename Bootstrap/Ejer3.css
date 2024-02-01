@@ -1,0 +1,60 @@
+.header {
+    background: coral;
+}
+
+.left {
+    text-align: left;
+    background: red;
+}
+
+.center {
+    text-align: center;
+    background: lightblue;
+}
+
+.right {
+    text-align: right;
+    background: red;
+}
+
+@media (min-width: 576px) {
+    .header {
+        background: lightblue;
+    }
+    
+    .left {
+        text-align: left;
+        background: red;
+    }
+    
+    .center {
+        text-align: right;
+        background: red;
+    }
+    
+    .right {
+        text-align: center;
+        background: greenyellow;
+    }
+}
+
+@media (min-width: 768px) {
+    .header {
+        background: greenyellow;
+    }
+    
+    .left {
+        text-align: center;
+        background: red;
+    }
+    
+    .center {
+        text-align: center;
+        background: red;
+    }
+    
+    .right {
+        text-align: center;
+        background: red;
+    }
+}
